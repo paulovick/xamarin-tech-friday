@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:steps="clr-namespace:XamarinTechFriday.Views.Steps"
+            x:Class="XamarinTechFriday.Views.MainPage">
+    <TabbedPage.Children>
+        <NavigationPage Title="Step 1">
+            <x:Arguments>
+                <steps:FirstStep />
+            </x:Arguments>
+        </NavigationPage>
+
+        <NavigationPage Title="Step 2">
+            <x:Arguments>
+                <steps:SecondStep />
+            </x:Arguments>
+        </NavigationPage>
+
+        <NavigationPage Title="Step 3">
+            <x:Arguments>
+                <steps:ThirdStep />
+            </x:Arguments>
+        </NavigationPage>
+    </TabbedPage.Children>
+</TabbedPage>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinTechFriday.Views.Steps.SecondStep"
+             Title="Step 2: Counter">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label VerticalOptions="Center" Text="Counter: " />
+            <Button VerticalOptions="Center" Text="Add" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

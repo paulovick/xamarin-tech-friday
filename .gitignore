@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/XamarinTechFriday/v15
+/XamarinTechFriday/XamarinTechFriday/bin
+/XamarinTechFriday/XamarinTechFriday/obj
+/XamarinTechFriday/XamarinTechFriday.Android/obj
+/XamarinTechFriday/XamarinTechFriday.Android/bin
+/XamarinTechFriday/XamarinTechFriday.iOS/obj
