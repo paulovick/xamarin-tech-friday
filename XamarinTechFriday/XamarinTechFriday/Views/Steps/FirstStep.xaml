@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinTechFriday.Views.Steps.FirstStep"
-             Title="Step 1: Controls">
+             Title="Step 1: Controls and View Renderers">
     <ContentPage.Content>
         <StackLayout>
             <ContentView VerticalOptions="CenterAndExpand" 
