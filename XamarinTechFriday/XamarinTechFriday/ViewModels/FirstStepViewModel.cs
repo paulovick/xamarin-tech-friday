@@ -1,5 +1,4 @@
-﻿using Xamarin.Forms;
-using XamarinTechFriday.ViewModels.Base;
+﻿using XamarinTechFriday.ViewModels.Base;
 
 namespace XamarinTechFriday.ViewModels
 {
