@@ -2,11 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinTechFriday.Views.Steps.ThirdStep"
-             Title="Step 3: Async Commands and REST">
+             Title="{Binding Title}">
     <ContentPage.Content>
         <StackLayout>
             <Label VerticalOptions="Center" Text="Name: " />
-            <Button VerticalOptions="Center" Text="Fetch" />
+            <Button VerticalOptions="Center" Text="Fetch" Clicked="Button_Clicked" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

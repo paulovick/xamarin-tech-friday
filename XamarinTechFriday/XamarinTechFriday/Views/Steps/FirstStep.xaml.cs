@@ -1,5 +1,6 @@
 ﻿using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinTechFriday.ViewModels;
 
 namespace XamarinTechFriday.Views.Steps
 {
@@ -9,6 +10,8 @@ namespace XamarinTechFriday.Views.Steps
 		public FirstStep()
 		{
 			InitializeComponent ();
+
+            this.BindingContext = new FirstStepViewModel();
 		}
 	}
 }
